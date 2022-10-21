@@ -11,7 +11,6 @@
 
 namespace Sulu\Component\Content\Tests\Unit\Repository;
 
-use PHPCR\Query\RowInterface;
 use PHPCR\Query\QOM\ChildNodeInterface;
 use PHPCR\Query\QOM\ColumnInterface;
 use PHPCR\Query\QOM\ComparisonInterface;
@@ -23,6 +22,7 @@ use PHPCR\Query\QOM\StaticOperandInterface;
 use PHPCR\Query\QueryInterface;
 use PHPCR\Query\QueryManagerInterface;
 use PHPCR\Query\QueryResultInterface;
+use PHPCR\Query\RowInterface;
 use PHPCR\SessionInterface;
 use PHPCR\WorkspaceInterface;
 use PHPUnit\Framework\TestCase;
