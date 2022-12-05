@@ -24,12 +24,6 @@
         "source": "https://github.com/sulu/skeleton",
         "docs": "https://docs.sulu.io/"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:alexander-schranz/DoctrinePHPCRBundle.git"
-        }
-    ],
     "require": {
         "php": "^8.0 || ^8.1",
         "ext-dom": "*",
@@ -47,7 +41,7 @@
         "doctrine/inflector": "^1.4.1 || ^2.0.1",
         "doctrine/orm": "^2.8",
         "doctrine/persistence": "^2.0",
-        "doctrine/phpcr-bundle": "dev-patch-1 as 2.3.0",
+        "doctrine/phpcr-bundle": "dev-2.x as 2.3.0",
         "dragonmantank/cron-expression": "^1.1 || ^2.0 || ^3.0",
         "friendsofphp/proxy-manager-lts": "^1.0",
         "friendsofsymfony/http-cache": "^2.10",
